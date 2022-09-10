@@ -5,11 +5,11 @@
  * followed by a new line, using putchar
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	for (n = 28; n < 38; n++)
 	{
 		putchar(n);
 	}
