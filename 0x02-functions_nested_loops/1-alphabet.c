@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	void(print_alphabet(void)
+	void print_alphabet(void)
 		{
 			int c;
 
@@ -16,5 +16,4 @@ int main(void)
 				c++;
 			}
 		}
-		return (0);
 }
