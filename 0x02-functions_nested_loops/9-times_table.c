@@ -6,14 +6,14 @@
  */
 void times_table(void)
 {
-	int row = 1;
-	int col = 1;
+	int row;
+	int col;
 
-	for (row = 1; row <= 9; row++)
+	for (row = 0; row <= 9; row++)
 	{
-		for (col = 1; col <= 9; col++)
+		for (col = 0; col <= 9; col++)
 		{
-			if (col <= 1)
+			if (col < 1)
 			{
 				_putchar(0);
 			}
@@ -23,7 +23,7 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-			if (row <= 1)
+			if (row < 1)
 			{
 				_putchar(0);
 			}
