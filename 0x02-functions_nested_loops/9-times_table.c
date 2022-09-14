@@ -1,23 +1,36 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints time in this format: HH:MM
- * Return: the time.
+ * times_table - prints the times table from 0 - 9
+ * Return: void
  */
-void jack_bauer(void)
+void times_table(void)
 {
-	int h, m;
+	int row = 1;
+	int col = 1;
 
-	for (h = 0; h < 24; h++)
+	for (row = 1; row <= 9; row++)
 	{
-		for (m = 0; m < 60; m++)
+		for (col = 1; col <= 9; col++)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
-			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
-			_putchar('\n');
+			if (col <= 1)
+			{
+				_putchar(0);
+			}
+			else
+			{
+				_putchar(row * col);
+			}
 		}
+		_putchar('\n');
+			if (row <= 1)
+			{
+				_putchar(0);
+			}
+			else
+			{
+				_putchar(row * col);
+			}
+			_putchar('\n');
 	}
 }
