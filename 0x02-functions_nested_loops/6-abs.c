@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *
+ * _abs - prints the absolute value of an integer
+ * @i: is the input parameter
+ * Return: the absolute value of the input
  */
-int _abs(int)
+int _abs(int i)
 {
-	int i = 0;
-
 	if (i < 0)
 	{
 		i = i * -1;
