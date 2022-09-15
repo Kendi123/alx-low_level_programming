@@ -6,10 +6,14 @@
  */
 int _isupper(int c)
 {
-	for (c >= 'A'; c <= 'Z'; c++)
+	int let;
+
+	for (let >= 'A'; let <= 'Z'; let++)
 	{
-		return (1);
+		if (let == c)
+		{
+			return (1);
+		}
 	}
 	return (0);
-	_putchar ('\n');
 }
