@@ -6,11 +6,11 @@
  */
 int _isupper(int c)
 {
-	int let;
+	int i;
 
-	for (let >= 'A'; let <= 'Z'; let++)
+	for (i >= 'A'; i <= 'Z'; i++)
 	{
-		if (let == c)
+		if (i == c)
 		{
 			return (1);
 		}
