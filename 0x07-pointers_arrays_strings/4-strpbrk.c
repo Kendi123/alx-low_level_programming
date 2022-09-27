@@ -10,15 +10,15 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i, j = 0;
 
-	while (s[i] != 0)
+	while (s[i] != '\0')
 	{
 		i++;
-		while (accept[j] != 0)
+		while (accept[j] != '\0')
 		{
 			j++;
 			if (s[i] == accept[j])
 			{
-				return (&s[1]);
+				return (&s[i]);
 			}
 		}
 	}
