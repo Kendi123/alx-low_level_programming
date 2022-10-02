@@ -6,7 +6,7 @@
  * @argv: the argument vector
  * Return: 0 if successful
  */
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc, char *argv[])
 {
 	printf("%d\n", argc);
 	return (0);
