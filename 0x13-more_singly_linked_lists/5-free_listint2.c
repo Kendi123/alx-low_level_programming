@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * free_listint2 - Frees list
  * @head: Pointer to a pointer to linked list
